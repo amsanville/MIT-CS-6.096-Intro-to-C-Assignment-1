@@ -1,6 +1,13 @@
 # MIT OCW 6.096 - Introduction to C++
 ## Assignment 1
 Nominally, I would submit this file with the assignment. However, since this is all taken from MIT Open Course Ware, it will just be my version of the solutions posted there (https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/assignments/ ). I've answered the questions asked in the assignment here. I've constructed the solutions to the various parts of the assignment in Assignment1Main.cpp. I've also included a makefile and shell script to "show my work" on compiling and putting in arguments into the script.
+
+An easy way to see what's going on is to use the commands:
+```
+make all
+./output < input.txt > output.txt
+```
+This will put the output of the program in a file `output.txt`. Read the source code to interpret what each line is supposed to be. Its simply meant to test each of the parts of the problem and try some different boundary cases.
 ### 3 More Programs
 #### 3.1 Scope
 What happens if we declare the same name twice within a block, giving it two different meanings? For example:
